@@ -1,6 +1,6 @@
 <!-- .slide: -->
 # Cheat sheets
-
+<--break-vertical-->
 
 ### How to set git username/email
 To set your global username/email
