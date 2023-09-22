@@ -24,21 +24,20 @@ cat .git/config
 <--break-vertical-->
 
 ### Undo last commit (local, NOT pushed)
-Undo last commit, `--soft` leaves changed files as "Changes to be committed":
+`--soft` leaves changed files
 ```bash
 git reset --soft HEAD~
 ```
 
 ### Undo previous commits (local, NOT pushed)
-Identify the hash of the "last good" commit with `log` and ust it in `reset`. The option `--hard` deletes any changes (throw away):
+`--hard` deletes any changes (throw away)
 ```bash
 git log --oneline
 git reset --hard *commit_hash*
 ```
 
 ### Undo a specific commit (local, ALREADY pushed)
-Actually this is not removing a commit, but reverting any changes by adding new "revert"-commit.  
-So identify the hash of a specific commit with `log` and use it in `revert`:
+not removing, but reverting by adding a new "revert"-commit
 ```bash
 git log --oneline
 git revert *commit_hash* --no-edit
