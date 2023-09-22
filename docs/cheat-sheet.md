@@ -37,7 +37,7 @@ git reset --hard *commit_hash*
 ```
 
 ### Undo a specific commit (local, ALREADY pushed)
-not removing, but reverting by adding a new "revert"-commit
+not removing, but adding a new "revert"-commit
 ```bash
 git log --oneline
 git revert *commit_hash* --no-edit
