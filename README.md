@@ -1,4 +1,4 @@
-[![GitHub Streak](https://streak-stats.demolab.com/?user=rainan16)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=rainan16&theme=dark&mode=weekly&card_width=800)](https://git.io/streak-stats)
 
 # This site uses [revealjs](https://revealjs.com/)
 <p align="center">
