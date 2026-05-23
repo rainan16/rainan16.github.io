@@ -1,4 +1,4 @@
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rainan16)](https://github.com/rainan16/github-readme-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=rainan16)](https://git.io/streak-stats)
 
 # This site uses [revealjs](https://revealjs.com/)
 <p align="center">
